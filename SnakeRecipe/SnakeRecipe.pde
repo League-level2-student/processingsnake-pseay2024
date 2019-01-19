@@ -6,11 +6,21 @@
 class Segment {
 
   //2. Create x and y member variables to hold the location of each segment.
-
+  int x,y;
   // 3. Add a constructor with parameters to initialize each variable.
-
-
+  Segment(int x,int y){
+    this.x = x;
+    this.y = y;
+  }
   // 4. Add getter and setter methods for both the x and y member variables.
+  public int getX() { return x; }
+  public int getY() { return y; }
+  public void setX(int cx) {
+    x = cx; 
+  }
+  public void setY(int cy) {
+    y = cy;
+  }
 }
 
 
